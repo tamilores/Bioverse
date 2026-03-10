@@ -41,7 +41,7 @@ function Login(){
                 <Button
                 variant="contained"
                 className="login-button"
-                //onClick={() => router.push(page)} 
+                onClick={() => router.push(page)} 
                 >
                     Login
                 </Button>

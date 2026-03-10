@@ -3,16 +3,11 @@
 import { Container, Typography, Card, CardMedia, IconButton } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { useRouter } from 'next/navigation';
-//import Header from "../header_footer/Header";
-//import Footer from "../header_footer/Footer";
 
 export default function User() {
     const router = useRouter();
         return(
-            <>
-            {/* <Header /> */}
-    
-            <Container>
+            <>    
                 <Typography variant="h3">What are you trying to achieve?</Typography>
     
                 <div>
@@ -58,9 +53,6 @@ export default function User() {
                         alt="Metformin"/>
                     </Card>       
                 </div>
-            </Container>
-    
-            {/* <Footer /> */}
             </>
         );
 }
